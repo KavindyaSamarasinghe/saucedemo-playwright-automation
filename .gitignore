@@ -1,0 +1,22 @@
+
+# Dependencies
+node_modules/
+
+# Playwright test artifacts
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Allure reports and raw results
+/allure-results/
+/allure-report/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*

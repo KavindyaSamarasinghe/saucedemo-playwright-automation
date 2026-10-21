@@ -1,0 +1,30 @@
+
+{
+  "name": "saucedemo-playwright-automation",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test --project=chromium",
+    "test:headed": "playwright test --project=chromium --headed",
+    "test:debug": "playwright test --project=chromium --debug",
+    "report:playwright": "playwright show-report",
+    "report:allure:generate": "allure generate allure-results --clean -o allure-report",
+    "report:allure:open": "allure open allure-report"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "qa-automation",
+    "saucedemo",
+    "allure"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "SauceDemo UI test automation using Playwright, TypeScript, POM, and Allure reporting",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5",
+    "allure-commandline": "^2.46.1",
+    "allure-playwright": "^3.14.0"
+  }
+}
