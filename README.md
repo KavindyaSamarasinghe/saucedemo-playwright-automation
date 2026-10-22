@@ -1,4 +1,6 @@
-﻿# SauceDemo UI Test Automation
+﻿[![Playwright Tests](https://github.com/KavindyaSamarasinghe/saucedemo-playwright-automation/actions/workflows/playwright.yml/badge.svg?branch=main)](https://github.com/KavindyaSamarasinghe/saucedemo-playwright-automation/actions/workflows/playwright.yml)
+
+# SauceDemo UI Test Automation
 
 Automated UI testing of the [SauceDemo](https://www.saucedemo.com/) e-commerce demo application using **Playwright, TypeScript, and the Page Object Model (POM)**.
 
